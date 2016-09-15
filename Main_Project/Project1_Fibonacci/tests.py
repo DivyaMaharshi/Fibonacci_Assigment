@@ -1,8 +1,7 @@
 from django.test import TestCase
-
-# Create your tests here.
 from Project1_Fibonacci.views import fib
 
+#test cases
 assert(fib(0) ==  0)
 assert(fib(1) == 1)
 assert(fib(2) == 1)

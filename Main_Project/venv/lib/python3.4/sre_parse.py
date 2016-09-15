@@ -1,1 +1,1 @@
-/usr/local/Cellar/python3/3.4.3/Frameworks/Python.framework/Versions/3.4/lib/python3.4/sre_parse.py
+/usr/lib/python3.4/sre_parse.py

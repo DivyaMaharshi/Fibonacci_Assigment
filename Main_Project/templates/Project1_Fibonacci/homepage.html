@@ -1,19 +1,26 @@
 <html>
+<body style="background-color:lightblue;">
 
-<div id='head'>
-<h2><marquee>Fibonacci Series !!</marquee></h2>
+<div id='header'>
+<h2><center>Fibonacci Series</center></h2>
 </div>
+
 <br></br>
+
 <div id='form'>
 <form action="{% url 'calculate_fibonacci' %}" method="get">
 
-    Enter  a valid +ve integer number to get the result: 
+    Enter A Valid +ve Integer Number : 
     {% csrf_token %}
     <input type="number" name="number" id="number" value={{entered_number}} />
     {{ form }}
     <input type="submit" value="Submit" />
 </form>
-
-
 </div>
+
+<div id = 'github_link' style="align:right;margin-left:1150;margin-top:-45;">
+<a href="https://github.com/DivyaMaharshi/Fibonacci_Assigment/tree/master/Main_Project">GitHub Link</a>
+</div>
+
+</body>
 </html>

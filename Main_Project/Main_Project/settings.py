@@ -73,18 +73,7 @@ WSGI_APPLICATION = 'Main_Project.wsgi.application'
 
 
 # Database
-# https://docs.djangoproject.com/en/1.9/ref/settings/#databases
-
-DATABASES = {
-    
-    'default': {
-        'ENGINE': 'django.contrib.gis.db.backends.postgis',
-        'NAME': 'database11',
-        'USER': 'swaroop',
-
-    }
-}
-
+# https://docs.djangoproject.com/en/1.9/ref/settings/#databasee
 
 # Password validation
 # https://docs.djangoproject.com/en/1.9/ref/settings/#auth-password-validators
